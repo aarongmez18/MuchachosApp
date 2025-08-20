@@ -1,0 +1,30 @@
+<ion-content class="login-page" [fullscreen]="true">
+  <div class="login-wrapper">
+  <div class="login-container">
+   
+    <img src="assets/img/escudo/Plano.png" alt="Logo" class="logo">
+
+    <h1 class="login-title">Crear cuenta</h1>
+
+    <ion-item class="login-item" lines="none">
+      <ion-label position="stacked" style="margin-bottom: 10px;">Correo</ion-label>
+      <ion-input [(ngModel)]="email" type="email" fill="full" class="login-input"></ion-input>
+    </ion-item>
+
+    <ion-item class="login-item" lines="none">
+      <ion-label position="stacked" style="margin-bottom: 10px;">Contraseña</ion-label>
+      <ion-input [(ngModel)]="password" type="password" fill="full" class="login-input"></ion-input>
+    </ion-item>
+
+    <!-- Botón principal -->
+    <ion-button expand="block" class="btn-primary" (click)="register()" (keyup.enter)="register()">
+      Entrar
+    </ion-button>
+
+    <!-- Botón secundario -->
+    <ion-button expand="block" fill="clear" class="btn-secondary" (click)="goToLogin()">
+      Regístrate
+    </ion-button>
+    </div>
+  </div>
+</ion-content>

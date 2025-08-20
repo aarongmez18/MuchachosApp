@@ -1,0 +1,103 @@
+.login-page {
+    --background: #f0ecec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    --color: #0F172A;
+}
+
+.login-title {
+    text-transform: uppercase;
+  text-align: start;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333; 
+  margin-bottom: 20px;
+}
+
+
+.login-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+
+
+.login-item {
+    
+    --background: #f0ecec;
+    --color: #0F172A;
+    font-size: 1.2rem;
+    max-width: 100%;
+    width: 100%;
+}
+
+
+.logo {
+    width: 420px;
+    margin-bottom: 30px;
+}
+
+.login-input {
+    --border-width: 2px;
+    max-width: 100%;
+    width: 100%;
+    --background: #fff;
+    display: flex;
+    color: #333;
+    --padding-start: 15px;
+    --padding-end: 15px;
+    font-size: 16px;
+    --padding-start: 12px;
+    --padding-end: 12px;
+    --padding-top: 8px;
+    --padding-bottom: 8px;
+    --min-height: 45px;
+    --height: 45px;
+}
+
+.ion-valid.sc-ion-input-md-h {
+    --highlight-color: rgb(0, 0, 0);
+      --border-width: 3px !important;
+  --border-style: solid !important;
+  --border-color: black !important;
+}
+
+.btn-primary {
+    margin-top: 10px;
+    --background: #0F172A;
+    --color: #ffffff;
+    font-weight: bold;
+    max-width: 100%;
+    width: 90%;
+}
+
+.btn-secondary {
+    --color: #0F172A;
+    --border-color: #0F172A;
+    background-color: #3a3e4777;
+    border-radius: 4px;
+    height: 36px;
+    font-weight: bold;
+    max-width: 100%;
+    width: 90%;
+}
+
+ion-input.login-input {
+  --border-style: solid !important;
+  --border-width: 3px !important;
+  --border-color: black !important;
+}
