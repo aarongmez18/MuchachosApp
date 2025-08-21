@@ -1,0 +1,10 @@
+.custom-tab-bar {
+  --background: #FFFFFF; 
+  --color: #0F172A;  
+  --color-selected: rgb(224, 138, 40); 
+}
+
+
+ion-router-outlet {
+  pointer-events: none;
+}

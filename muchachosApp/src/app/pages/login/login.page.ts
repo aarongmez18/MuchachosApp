@@ -16,7 +16,6 @@ export class LoginPage {
   ) {}
 
   login() {
-    // Aquí más adelante meterás la llamada al backend
     console.log('Intentando login con:', this.email, this.password);
   }
 

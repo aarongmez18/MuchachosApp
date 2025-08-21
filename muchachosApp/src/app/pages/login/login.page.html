@@ -2,8 +2,8 @@
   <div class="login-wrapper">
   <div class="login-container">
    
-    <img src="assets/img/logo/Horizontal/Grises.png" alt="Logo" class="logo">
-
+    <img src="assets/img/escudo/Relieve.png" alt="Logo" class="logo">
+    
     <h1 class="login-title">Inicio de sesión</h1>
 
     <ion-item class="login-item" lines="none">
@@ -16,12 +16,12 @@
       <ion-input [(ngModel)]="password" type="password" fill="full" class="login-input"></ion-input>
     </ion-item>
 
-    <!-- Botón principal -->
+    
     <ion-button expand="block" class="btn-primary" (click)="login()" (keyup.enter)="login()">
       Entrar
     </ion-button>
+  
 
-    <!-- Botón secundario -->
     <ion-button expand="block" fill="clear" class="btn-secondary" (click)="goToRegister()">
       Regístrate
     </ion-button>

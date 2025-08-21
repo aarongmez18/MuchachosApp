@@ -35,3 +35,27 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
+
+
+ion-toolbar.bgcolor-toolbar {
+  --background: #ffffff; 
+  --color: #0F172A;
+  --margin: none;
+  padding-top: env(safe-area-inset-top, 0);
+}
+
+.custom-popover {
+  --z-index: 9999; 
+}
+
+ion-page {
+  position: relative !important;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+.button-native {
+  z-index: 1000;
+}

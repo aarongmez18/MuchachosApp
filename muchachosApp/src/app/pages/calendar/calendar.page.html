@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar class="bgcolor-toolbar">
+    <ion-title class="small-title">Agenda</ion-title>
+    
+    <ion-buttons slot="end">
+      <ion-button (click)="openCalendar()" fill="outline" shape="round" class="calendar-btn">
+        <ion-icon name="calendar-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+
+<!-- Contenido aquí -->
+<ion-content fullscreen>
+
+  <!-- Botones filtros -->
+   <ion-buttons class="ion-margin-top">
+  <ion-button (click)="openCalendar()" fill="outline" shape="round" class="filter-btn">Todos</ion-button>
+  <ion-button (click)="openCalendar()" fill="outline" shape="round" class="filter-btn">Actuaciones</ion-button>
+  <ion-button (click)="openCalendar()" fill="outline" shape="round" class="filter-btn">Ensayos</ion-button>
+  <ion-button (click)="openCalendar()" fill="outline" shape="round" class="filter-btn">Otros</ion-button>
+  </ion-buttons>
+
+</ion-content>

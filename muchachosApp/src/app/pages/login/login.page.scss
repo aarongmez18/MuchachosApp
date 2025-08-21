@@ -1,10 +1,15 @@
 .login-page {
-    --background: #f0ecec;
+    // --background: #f0ecec;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     --color: #0F172A;
+
+    --background: #ECE9E6;  
+    --background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  
+    --background: linear-gradient(to right, #FFFFFF, #ECE9E6); 
+
 }
 
 .login-title {
@@ -38,16 +43,15 @@
 
 .login-item {
     
-    --background: #f0ecec;
+    --background: transparent;
     --color: #0F172A;
     font-size: 1.2rem;
     max-width: 100%;
     width: 100%;
 }
 
-
 .logo {
-    width: 420px;
+    width: 150px;
     margin-bottom: 30px;
 }
 
